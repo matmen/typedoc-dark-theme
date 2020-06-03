@@ -43,7 +43,7 @@
             {{#if signatures}}
                 <h5>{{#compact}}
                     {{#if flags.isRest}}<span class="tsd-signature-symbol">...</span>{{/if}}
-                    {{{wbr name}}}
+                    {{{name}}}
                     <span class="tsd-signature-symbol">
                         {{#if isOptional}}?{{/if}}
                         :&nbsp;
@@ -58,7 +58,7 @@
                         <span class="tsd-flag ts-flag{{this}}">{{this}}</span>&nbsp;
                     {{/each}}
                     {{#if flags.isRest}}<span class="tsd-signature-symbol">...</span>{{/if}}
-                    {{{wbr name}}}
+                    {{{name}}}
                     <span class="tsd-signature-symbol">
                         {{#if flags.isOptional}}?{{/if}}
                         :&nbsp;
