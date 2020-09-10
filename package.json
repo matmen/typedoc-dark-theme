@@ -26,7 +26,7 @@
     "node": ">= 8"
   },
   "dependencies": {
-    "lunr": "^2.3.8"
+    "lunr": "^2.3.9"
   },
   "devDependencies": {
     "@types/lunr": "^2.3.2",
